@@ -1,0 +1,9 @@
+.itemTitle{
+    font-size: 2em;
+    font-weight: bold;
+    display: flex;
+    height: 100%;
+    padding: 0 0 0 5rem;
+    align-items: center;
+    flex-wrap: wrap;
+}

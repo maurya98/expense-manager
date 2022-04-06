@@ -1,0 +1,15 @@
+.AddExpenseContainer{
+    display: flex;
+    justify-content: space-between;    
+    background-color: rgb(144, 83, 201);
+    margin: 1rem;
+    padding: 1rem;
+}
+.addExpenseMessage{
+    display: flex;
+    font-size: 30px;
+    color: white;
+    font-weight: bolder;
+    align-items: center;
+    text-align: center;
+}

@@ -1,0 +1,29 @@
+.dateBox{
+    display:grid;
+    grid-auto-rows: auto auto auto;
+    background-color:rgb(24, 17, 31);
+    height:6rem;
+    width:6rem;
+    border-radius:1rem;
+    border:1px solid;
+    border-color: white;
+    text-align:center;
+    color:white;
+    
+}
+.date_date{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding:0 0 0.5rem 0;
+    margin:0;
+}
+.month{
+    font-size:1rem;
+    font-weight: bold;
+    padding:0.5rem 0 0 0;
+    margin:0;
+}
+.year{
+    padding:0;
+    margin:0;
+}

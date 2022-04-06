@@ -1,0 +1,45 @@
+.newExpenseControls{
+    display: flex;
+    max-width: 2000px;
+    width: auto;
+    justify-content: flex-end;
+    align-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.newExpenseControl{
+    display: grid;
+    grid-template-columns: auto;
+    padding: 0 1rem 0 1rem;
+}
+.newExpenseControl > label{
+    font-family: cursive;
+    font-size: large;
+}
+.newExpenseControl > input{
+    width: max-content;
+    width: 15rem;
+    height: 2rem;
+    border-radius: 10px;
+    border: 0 solid;
+    font-weight: bold;
+    
+}
+.newExpenseAction{
+    margin: 1rem;
+    display: flex;
+    justify-content: end;
+}
+.newExpenseAction > button{
+    border: 0 solid;
+    border-radius: 1rem;
+    width: 10rem;
+    height: 2rem;
+    background-color: rgb(51, 6, 94);
+    color: white;
+}
+.newExpenseAction > button:hover{
+    background-color: rgb(83, 11, 150);
+}
+
