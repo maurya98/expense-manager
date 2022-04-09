@@ -2,11 +2,18 @@ import React from "react";
 import "./NewExpense.css";
 import ExpenseForm from "./ExpenseForm";
 import Card from "../UI/Card";
-const NewExpense = () => {
+const NewExpense = (props) => {
+  const onSaveExpenseDataHandler = (enteredExpenseData) => {
+    const expenseData = {
+      ...enteredExpenseData,
+      id: Math.random().toString()
+    };
+    props.onAddExpense(expenseData);
+  };
   return (
     <Card className="AddExpenseContainer">
       <div className="addExpenseMessage">Add your Expenses!!</div>
-      <ExpenseForm />
+      <ExpenseForm onSaveExpenseData={onSaveExpenseDataHandler} />
     </Card>
   );
 };
