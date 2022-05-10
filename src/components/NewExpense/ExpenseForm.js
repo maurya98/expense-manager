@@ -25,7 +25,7 @@ const ExpenseForm = (props) => {
   };
 
   const amountChangeHandler = (event) => {
-    setEnteredAmount(event.target.value); /*
+    setEnteredAmount(event.target.value); 
     /*setUserInput({
       ...userInput, //this is done because other data does not get lost so we copy the other value useing ... operator and then we override enteredTitle
       enteredAmount: event.target.value,
